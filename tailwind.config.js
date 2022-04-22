@@ -9,7 +9,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                "dark-purple": "#243245",
+                "smooth-blue": "#243245",
+                "light-smooth-blue": "#2d4e7a",
                 "light-white": "rgba(255, 255, 255, 0.17)",
             },
             fontFamily: {

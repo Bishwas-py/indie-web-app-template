@@ -9,13 +9,13 @@ export default function Sidebar() {
     const [open, setOpen] = useState(false);
     return (
         <div
-            className={`${open ? "w-64 sm:relative ultra-sm:fixed ultra-sm:w-full" : "w-20"} relative align-middle duration-700 transition-all h-screen p-3 pt-8 bg-dark-purple`}>
+            className={`${open ? "w-64 z-50 sm:relative ultra-sm:fixed ultra-sm:w-full" : "w-20"} relative align-middle duration-700 transition-all h-screen p-3 pt-8 bg-smooth-blue`}>
             <div onClick={() => setOpen(!open)}
                  className={`absolute w-7 h-7 cursor-pointer -right-3 top-9
                         flex justify-center align-middle place-items-center
                         duration-500
                         ${open && `ultra-sm:-right-0`}
-                        border-2 border-dark-purple rounded-full bg-white`}>
+                        border-2 border-smooth-blue rounded-full bg-white`}>
                 <FontAwesomeIcon icon={faChevronLeft}
                                  className={`${!open && "rotate-180"} duration-700`}/>
             </div>
