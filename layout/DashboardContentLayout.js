@@ -1,12 +1,11 @@
 import React from 'react';
 import Sidebar from "../components/Sidebar";
 
-function DashboardContentLayout({ children, heading }) {
+function DashboardContentLayout({ children, padding }) {
     return (
         <div className={"flex"}>
             <Sidebar/>
-            <div className={"p-7 text-2xl font-semibold flex-1 h-screen overflow-y-scroll"}>
-                <h1 className={"ml-2 mb-2 text-smooth-blue"}>{ heading }</h1>
+            <div className={`${padding} text-2xl font-semibold content-center w-full h-screen overflow-y-scroll scrollbar-hide`}>
                 { children }
             </div>
         </div>

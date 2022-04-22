@@ -9,7 +9,7 @@ export default function Sidebar() {
     const [open, setOpen] = useState(false);
     return (
         <div
-            className={`${open ? "w-64 z-50 sm:relative ultra-sm:fixed ultra-sm:w-full" : "w-20"} relative align-middle duration-700 transition-all h-screen p-3 pt-8 bg-smooth-blue`}>
+            className={`${open ? "w-64 z-50 sm:relative ultra-sm:fixed ultra-sm:w-full" : "w-20"} relative align-middle duration-400 transition-all h-screen p-3 pt-8 bg-smooth-blue`}>
             <div onClick={() => setOpen(!open)}
                  className={`absolute w-7 h-7 cursor-pointer -right-3 top-9
                         flex justify-center align-middle place-items-center
@@ -26,7 +26,7 @@ export default function Sidebar() {
                          className={`cursor-pointer duration-500 ` +
                              `${open ? "w-6" : "w-auto rotate-[360deg]"}`}/>
                     <h1 className={`text-white origin-left font-medium 
-                            duration-300 ${!open && "scale-0 h-0"}`}>Webmatrices Apps</h1>
+                            duration-400 ${!open && "scale-0 h-0"}`}>Webmatrices Apps</h1>
                 </div>
             </div>
             <div className={"pt-3 overflow-y-scroll h-[89%] scrollbar-hide"}>
