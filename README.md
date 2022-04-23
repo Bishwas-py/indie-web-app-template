@@ -6,10 +6,10 @@ This template is specially for Web apps and Online tools website developer, who 
 
 [![Online tools website and webapp template](online-web-tool-theme-screenshot-1.png)](https://www.youtube.com/watch?v=x8bADP_8-VA)
 
-[Online tools website and webapp template](online-web-tool-theme-screenshot-2.png)
-[Online tools website and webapp template](online-web-tool-theme-screenshot-3.png)
-[Online tools website and webapp template](online-web-tool-theme-screenshot-4.png)
-[Online tools website and webapp template](online-web-tool-theme-screenshot-5.png)
+![Online tools website and webapp template](online-web-tool-theme-screenshot-2.png)
+![Online tools website and webapp template](online-web-tool-theme-screenshot-3.png)
+![Online tools website and webapp template](online-web-tool-theme-screenshot-4.png)
+![Online tools website and webapp template](online-web-tool-theme-screenshot-5.png)
 
 ## Installation and Usage
 First, run the development server:
