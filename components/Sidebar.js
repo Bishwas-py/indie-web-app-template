@@ -20,14 +20,14 @@ export default function Sidebar() {
                                  className={`${!open && "rotate-180"} duration-700`}/>
             </div>
             <div className={"w-full pl-1"}>
-                <div className={`flex ${!open ? "p-2 w-12" : "py-2 px-3 gap-x-4"} items-center` +
+                <a href={"https://apps.webmatrices.com"} className={`flex ${!open ? "p-2 w-12" : "py-2 px-3 gap-x-4"} items-center` +
                     ` cursor-pointer rounded-md bg-light-white hover:bg-blue-500`}>
                     <img src={"/favicon.svg"} alt=''
                          className={`cursor-pointer duration-500 ` +
                              `${open ? "w-6" : "w-auto rotate-[360deg]"}`}/>
                     <h1 className={`text-white origin-left font-medium 
                             duration-400 ${!open && "scale-0 h-0"}`}>Webmatrices Apps</h1>
-                </div>
+                </a>
             </div>
             <div className={"pt-3 overflow-y-scroll h-[89%] scrollbar-hide"}>
                 {paths.map((path, index) => (

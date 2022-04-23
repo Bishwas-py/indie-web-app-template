@@ -19,27 +19,27 @@ export default [
     {
         title: "Long Tail Keyword Generator",
         faIcon: faTextHeight,
-        url: "/"
+        url: "/dashboard"
     },
     {
         title: "About Us Generator",
         faIcon: faBook,
         gap: true,
-        url: "/about-us-generator"
+        url: "/dashboard"
     },
     {
         title: "Search",
         faIcon: faSearch,
-        url: "/"
+        url: "/dashboard"
     },
     {
         title: "Linkedin Hashtag Generator",
         faIcon: faLinkedin,
-        url: "/"
+        url: "/dashboard"
     },
     {
         title: "Etsy Tag Generator",
         faIcon: faEtsy,
-        url: "/"
+        url: "/apps/etsy-tag-generator"
     },
 ]
