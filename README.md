@@ -2,6 +2,8 @@
 # Responsive React Next JS Tailwind Dashboard
 This is Next JS Tailwind dashboard from [Webmatrices](https://webmatrices.com/t/programming) project modified with [`tailwind-sidebar-dashboard`](https://youtu.be/aMjou4yXWdU).
 
+This template is specially for Web apps and Online tools website developer, who are working independetly on the web to make internet a better place. Also, we are constantly helping independent developers like you in our [Webmatrices](https://webmatrices.com/t/programming), to grow your app's user base, and monetize your app to generate passive income with it.
+
 ## Installation and Usage
 First, run the development server:
 
